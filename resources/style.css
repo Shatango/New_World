@@ -17,9 +17,13 @@
     --maincolor: rgb(219, 219, 219);
 }
 
-html {
+body {
     /* For testing purposes */
     /* font-family: 'Libre Baskerville', serif; */
     /* font-family: 'IM Fell DW Pica', serif; */
-    background-color: var(--maincolor);
+    background-image: url(./images/bg_hd/nw-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(37, 4, 4);
+    background-position: middle;
 }

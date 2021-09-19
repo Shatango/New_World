@@ -1,0 +1,45 @@
+/* Author: Richard Verweij @Shatango */
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+
+.search {
+    width: 100%;
+}
+
+header > img {
+    height: 50px;
+    justify-self : flex-start;
+    margin-left: 25px;
+}
+
+.menu-container{
+    display: flex;
+    flex-direction: row;
+    justify-self : flex-end;
+    margin-right: 25px;
+}
+
+.menu-list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.menu {
+    display: flex;
+    width: auto;
+    height: 25px;
+    margin-left: 15px;
+}
+
+.menu a {
+    font-family: var(--titlefont);
+    text-decoration: none;
+    color: white; 
+    text-align: right;
+}
