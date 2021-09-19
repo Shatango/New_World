@@ -1,0 +1,25 @@
+/* Author: Richard Verweij @Shatango */
+/* Imported fonts Google */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* Fonts*/
+    --titlefont: 'Libre Baskerville', serif;
+    --regularfont: 'IM Fell DW Pica', serif;
+    /* Colors */
+    --maincolor: rgb(219, 219, 219);
+}
+
+html {
+    /* For testing purposes */
+    /* font-family: 'Libre Baskerville', serif; */
+    /* font-family: 'IM Fell DW Pica', serif; */
+    background-color: var(--maincolor);
+}
